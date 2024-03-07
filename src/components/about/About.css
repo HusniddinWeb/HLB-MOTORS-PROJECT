@@ -1,0 +1,123 @@
+.about{
+    background-color: #F9F9F9;
+    padding-bottom: 50px;
+}
+.about-t{
+    margin-bottom: 70px;
+}
+.about-block{
+    display: flex;
+    gap: 50px;
+}
+.about-block .about-block-l::before{
+    border: 0.5rem solid #0d6efd;
+    border: 0.5rem solid #0d6efd;
+    box-sizing: border-box;
+    content: "";
+    height: 70%;
+    left: 42px;
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+}
+
+.about-block .about-block-l img{
+    width: 500px;
+    position: relative;
+    z-index: 2;
+}
+
+.about-block-r .about-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    color: #0d6efd;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.about-block-r .item{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.about-block-r span{
+    color: #0d6efd;
+}
+.about-block-r .text{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #757F95;
+    margin-bottom: 20px;
+}
+.about-block-r .about-icon{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #757F95;
+    margin-bottom: 10px;
+}
+.about-block-r .icons-gal{
+    color: #0d6efd;
+}
+
+.about-b{
+    background-color: #0d6efd;
+    padding: 50px 0;
+    position: relative;
+}
+.about-b::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .15;
+}
+
+.about-b .about-block-b{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-b .about-block-b .about-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.about-b .about-block-b .about-info .icons{
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 110px;
+    color: #FFF;
+    border: 5px solid #FFF;
+    background: black;
+    z-index: 1;
+}
+
+.about-b .about-block-b .about-info .about-number{
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFF;
+}
+.about-b .about-block-b .about-info .about-info-title{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+    color: #FFF;
+}

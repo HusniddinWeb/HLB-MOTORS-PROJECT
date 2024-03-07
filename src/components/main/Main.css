@@ -1,0 +1,115 @@
+.main{
+    position: relative;
+    z-index: 1;
+    
+}
+
+.main-block1{
+    background: url("../images/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 770px;
+    z-index: 1;
+}
+.main-block1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -0.5px;
+    top: 0;
+    background: #0b0c0d;
+    opacity: .85;
+    z-index: 1;
+}
+
+.main-block-r{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-block-l{
+    padding-top: 100px;
+    position: absolute;
+    z-index: 999;
+}
+.main-block-l .item{
+    color: #0d6efd;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+@keyframes form {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(30px); }
+    100% { transform: translateY(0); }
+}
+.main-block-l .item {
+    animation: form 2s ease-in-out;
+}
+.main-block-l .title{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 30px;
+}
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(30px); }
+    100% { transform: translateX(0); }
+}
+
+.main-block-l .title {
+    animation: slide 2s ease-in-out;
+}
+.main-block-l .title span{
+    color: #0d6efd;
+    letter-spacing: 8px;
+    font-size: 50px;
+    font-weight: 900;
+}
+.main-block-l .text{
+    color: #fff;
+    font-style: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 1.6;
+    vertical-align: inherit;
+    margin-bottom: 30px;
+
+}
+
+@keyframes tex {
+    0% { transform: translateY(-10px); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0); }
+}
+
+.main-block-l .text{
+    animation: tex 2s ease-in-out;
+}
+
+.main-block-r img{
+    position: absolute;
+    z-index: 1;
+    width: 900px;
+    right: 0;
+    bottom: -200px;
+}
+.main-block-r::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background: #0d6efd;
+    right: 100px;
+    bottom: 145px;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: 1
+}
