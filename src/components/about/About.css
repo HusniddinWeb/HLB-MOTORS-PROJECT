@@ -1,6 +1,6 @@
 .about{
     background-color: #F9F9F9;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 .about-t{
     margin-bottom: 70px;
@@ -19,6 +19,7 @@
     position: absolute;
     width: 500px;
     z-index: 1;
+    border-radius: 3%;
 }
 
 .about-block .about-block-l img{
@@ -31,20 +32,20 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 20px;
-    color: #0d6efd;
+    font-size: 22px;
+    color: #0045ff;
     word-spacing: 8px;
     letter-spacing: 3px;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 .about-block-r .item{
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 46px;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 .about-block-r span{
-    color: #0d6efd;
+    color: #0045ff;
 }
 .about-block-r .text{
     font-size: 20px;
@@ -61,7 +62,7 @@
     margin-bottom: 10px;
 }
 .about-block-r .icons-gal{
-    color: #0d6efd;
+    color: #0045ff;
 }
 
 .about-b{

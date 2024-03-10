@@ -11,7 +11,8 @@ function ProductDetail() {
     return (
         <div className='product-Detail'>
             <div className="container">
-                <img src={data.img} alt="" />
+                <img src={data.img} alt="" className='cl'/>
+                <h1>Malumoti:{data.title}</h1>
             </div>
         </div>
     )

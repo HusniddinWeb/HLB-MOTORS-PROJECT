@@ -1,0 +1,104 @@
+.playmarket{
+    background-color: #fff;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+.playmarket-block{
+    background-color: #f9f9f9;
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+
+}
+
+.playmarket-block::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/play-fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .05;
+    z-index: 1;
+}
+.playmarket-block-l{
+    position: relative;
+    z-index: 2;
+}
+.playmarket-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0045ff;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.playmarket-title{
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.playmarket-title span{
+    color: #0045ff;
+}
+.playmarket-text{
+    color: #757F95;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.play-navlink{
+    display: flex;
+    gap: 20px;
+}
+.nav-play{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #0045ff;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    transition: 0.5s ease;
+}
+.nav-play:hover{
+    background-color: black;
+}
+
+.nav-play span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.play-end{
+    background-color: black;
+}
+.play-end:hover{
+    background-color: #0045ff;
+}
+
+.nav-icons-play{
+    font-size: 28px;
+}
+
+.playmarket-block-r img{
+    position: absolute;
+    top: 110px;
+    right: -48px;
+    width: 684px;
+}

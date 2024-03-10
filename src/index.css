@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #e1e1e1;
-    font-family: "Roboto";
+    background-color: #f9f9f9;
+    font-family: "Arimo", sans-serif;
 }
 .container{
     padding: 0 100px;

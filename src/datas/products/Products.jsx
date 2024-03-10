@@ -1,59 +1,110 @@
-import bmw from "../../components/images/bmw.png";
-import bugatti from "../../components/images/Bugatti.png";
-import kia from "../../components/images/kia.png";
-import ferrari from "../../components/images/ferrari.png";
-import tesla from "../../components/images/tesla.png";
-import lam from "../../components/images/lambargine.webp";
-import lex from "../../components/images/lex.png";
-import merc from "../../components/images/merc.png";
+import BYD1 from "../../components/images/BYD1.jpg";
+import BYD2 from "../../components/images/BYD2.jpg";
+import BYD3 from "../../components/images/BYD3.jpg";
 
 export const car = [
     {
-      img: bmw,
-      title: "Bmw",
-      price: "120 000 $",
+      img: BYD1,
+      title: "BYD Seagull Fly Edition",
+      urven: "5,0",
+      commet: "58,5",
+      auto: "Avtomatik",
+      distance: "10,15",
+      liter: "1",
+      model: "2023",
+      gibrid: "Gibrid",
+      price: "16 700 $",
       id: "1"
     },
     {
-      img: bugatti,
-      title: "Bugatti",
-      price: "400 000 $",
+      img: BYD2,
+      title: "BYD E2 Luxury Edition",
+      urven: "5,0",
+      commet: "58,5",
+      auto: "Avtomatik",
+      distance: "10,15",
+      liter: "1",
+      model: "2023",
+      gibrid: "Gibrid",
+      price: "19 200 $",
       id: "2"
     },
     {
-      img: kia,
-      title: "Kia",
-      price: "60 000 $",
+      img: BYD3,
+      title: "BYD Song Champion",
+      urven: "5,0",
+      commet: "58,5",
+      auto: "Avtomatik",
+      distance: "10,15",
+      liter: "1",
+      model: "2023",
+      gibrid: "Gibrid",
+      price: "32 900 $",
       id: "3"
     },
     {
-      img: ferrari,
-      title: "Ferarri",
-      price: "500 000 $",
+      img: BYD2,
+      title: "BYD E2 Luxury Edition",
+      urven: "5,0",
+      commet: "58,5",
+      auto: "Avtomatik",
+      distance: "10,15",
+      liter: "1",
+      model: "2023",
+      gibrid: "Gibrid",
+      price: "19 200 $",
       id: "4"
     },
     {
-      img: tesla,
-      title: "Tesla",
-      price: "80 000 $",
+      img: BYD3,
+      title: "BYD Song Champion",
+      urven: "5,0",
+      commet: "58,5",
+      auto: "Avtomatik",
+      distance: "10,15",
+      liter: "1",
+      model: "2023",
+      gibrid: "Gibrid",
+      price: "32 900 $",
       id: "5"
     },
     {
-      img: lam,
-      title: "Lambargini",
-      price: "800 000 $",
+      img: BYD1,
+      title: "BYD Seagull Fly Edition",
+      urven: "5,0",
+      commet: "58,5",
+      auto: "Avtomatik",
+      distance: "10,15",
+      liter: "1",
+      model: "2023",
+      gibrid: "Gibrid",
+      price: "16 700 $",
       id: "6"
     },
     {
-      img: lex,
-      title: "Lexus",
-      price: "60 000 $",
+      img: BYD2,
+      title: "BYD E2 Luxury Edition",
+      urven: "5,0",
+      commet: "58,5",
+      auto: "Avtomatik",
+      distance: "10,15",
+      liter: "1",
+      model: "2023",
+      gibrid: "Gibrid",
+      price: "19 200 $",
       id: "7"
     },
     {
-      img: merc,
-      title: "Mercedes",
-      price: "500 000 $",
+      img: BYD3,
+      title: "BYD Song Champion",
+      urven: "5,0",
+      commet: "58,5",
+      auto: "Avtomatik",
+      distance: "10,15",
+      liter: "1",
+      model: "2023",
+      gibrid: "Gibrid",
+      price: "32 900 $",
       id: "8"
-    }
+    },
 ]
