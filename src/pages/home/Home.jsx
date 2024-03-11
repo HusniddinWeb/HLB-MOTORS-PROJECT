@@ -9,6 +9,7 @@ import Services from '../../components/services/Services'
 import { FaCar } from "react-icons/fa";
 import Clients from '../../components/clients/Clients'
 import Playmarket from '../../components/playmarket/Playmarket'
+import Footer from '../../components/footer/Footer'
 
 function Home() {
   
@@ -42,6 +43,7 @@ function Home() {
       <Services />
       <Clients />
       <Playmarket />
+      <Footer />
     </div>
   )
 }

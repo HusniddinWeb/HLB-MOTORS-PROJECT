@@ -1,13 +1,17 @@
 import React from 'react'
 import "./Playmarket.css"
 import playimg from "../images/play.png"
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
+
 
 import { FaCar } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaAppStore } from "react-icons/fa";
 
+   
+
 function Playmarket() {
+    
   return (
     <div className='playmarket'>
         <div className="container">
