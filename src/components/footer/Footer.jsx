@@ -16,9 +16,11 @@ function Footer() {
     <footer>
 
         <div className="footer-t">
-            <div className="container">
-                <div className="footer-block-t">
+            
+            <div className="footer-block-t">
 
+                
+                <div className="container">
                     <div className="footer-l">
 
                         <div className="footer-logo">
@@ -45,16 +47,15 @@ function Footer() {
                         </div>
 
                     </div>
-
-                    <div className="footer-r">
-                        <iframe
-                            className='maps'
-                            src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d1500.9370358108113!2d69.23356495189994!3d41.20271894585016!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDEyJzA5LjgiTiA2OcKwMTQnMDMuMSJF!5e0!3m2!1suz!2s!4v1710081440168!5m2!1suz!2s" width="800" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                    </div>
-
                 </div>
+
+                <iframe 
+                    className='maps'
+                    src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d9170.36417443626!2d69.2298261160733!3d41.20251637914065!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDEyJzA5LjgiTiA2OcKwMTQnMDMuMSJF!5e0!3m2!1suz!2s!4v1710412251825!5m2!1suz!2s" width="850" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
             </div>
+            
         </div>
 
         <div className="footer-b">

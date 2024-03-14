@@ -23,6 +23,10 @@
     opacity: .85;
     z-index: 1;
 }
+.slider{
+    position: relative;
+    z-index: 5;
+}
 
 .main-block-r{
     display: flex;

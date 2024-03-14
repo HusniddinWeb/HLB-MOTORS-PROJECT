@@ -4,6 +4,9 @@ import "./Services.css"
 
 import { FaCar } from "react-icons/fa";
 import { IoCarSportOutline } from "react-icons/io5";
+import { MdOutlineCreditScore } from "react-icons/md";
+import { LiaAwardSolid } from "react-icons/lia";
+import { MdOutlineEarbudsBattery } from "react-icons/md";
 
 function Services() {
   return (
@@ -29,55 +32,63 @@ function Services() {
                     <div className="services-r">
                     <div className="services-block-r">
                         <div className="services-img">
-                            <IoCarSportOutline className='icon-S' />
+                            <div className="ctad-icons">
+                                <LiaAwardSolid  className='icon-S' />    
+                            </div>
                             <p className='icon-number'>01</p>
                         </div>
                         <div className="services-block-item-r">
-                            Sifatli Avtomobillar
+                            KAFOLAT
                         </div>
                         <div className="services-block-text-r">
-                            Mavjud bo'laklarning ko'plab variantlari mavjud, ammo kattalar  o'quvchining turli xil o'zgarishlarga duchor bo'lishidan aziyat chekdi.
+                            Biz barcha avtomobillarga 6 yil yoki 150 000 km gacha kafolat beramiz
                         </div>
                     </div>
                     <div className="services-block-r">
                         <div className="services-img">
-                            <IoCarSportOutline className='icon-S' />
+                            <div className="ctad-icons">
+                                <MdOutlineCreditScore  className='icon-S' />
+                            </div>
                             <p className='icon-number'>03</p>
                         </div>
                         <div className="services-block-item-r">
-                            Mashhur brendlar
+                            KREDIT
                         </div>
                         <div className="services-block-text-r">
-                            Mavjud bo'laklarning ko'plab variantlari mavjud, ammo kattalar  o'quvchining turli xil o'zgarishlarga duchor bo'lishidan aziyat chekdi.
+                            Bu stavka 24% dan boshlanadi. 25% dastlabki to'lov. 60 oygacha 
                         </div>
                     </div>    
                     </div>
 
                     <div className="services-r end">
-                    <div className="services-block-r">
-                        <div className="services-img">
-                            <IoCarSportOutline className='icon-S' />
-                            <p className='icon-number'>02</p>
+                        <div className="services-block-r">
+                            <div className="services-img">
+                                <div className="ctad-icons">
+                                    <MdOutlineEarbudsBattery  className='icon-S' />
+                                </div>
+                                <p className='icon-number'>02</p>
+                            </div>
+                            <div className="services-block-item-r">
+                                BYD BATARYA
+                            </div>
+                            <div className="services-block-text-r">
+                                Dunyodagi eng xavfsiz batareya. Batareya kafolati 8 yilgacha yoki 150 000 km
+                            </div>
                         </div>
-                        <div className="services-block-item-r">
-                            Sertifikatlangan
-                        </div>
-                        <div className="services-block-text-r">
-                            Mavjud bo'laklarning ko'plab variantlari mavjud, ammo kattalar  o'quvchining turli xil o'zgarishlarga duchor bo'lishidan aziyat chekdi.
-                        </div>
-                    </div>
-                    <div className="services-block-r">
-                        <div className="services-img">
-                            <IoCarSportOutline className='icon-S' />
-                            <p className='icon-number'>04</p>
-                        </div>
-                        <div className="services-block-item-r">
-                            O'rtacha narx
-                        </div>
-                        <div className="services-block-text-r">
-                            Mavjud bo'laklarning ko'plab variantlari mavjud, ammo kattalar  o'quvchining turli xil o'zgarishlarga duchor bo'lishidan aziyat chekdi.
-                        </div>
-                    </div>    
+                        <div className="services-block-r">
+                            <div className="services-img">
+                                <div className="ctad-icons">
+                                    <IoCarSportOutline className='icon-S' />
+                                </div>
+                                <p className='icon-number'>04</p>
+                            </div>
+                            <div className="services-block-item-r">
+                                RASMIY DILER
+                            </div>
+                            <div className="services-block-text-r">
+                                Sotib olgandan keyin qo'llab-quvvatlash
+                            </div>
+                        </div>    
                     </div>
 
                 </div>

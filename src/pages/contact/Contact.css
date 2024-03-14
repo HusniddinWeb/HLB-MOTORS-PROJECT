@@ -1,0 +1,127 @@
+.contact-block{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+.contact-menu{
+    padding: 95px 15px 15px 15px;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 15%);
+    transition: all .5s ease-in-out;
+}
+.contact-menu:hover{
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 35%);
+    transform: scale(1.02);
+}
+.contact-icons{
+    border-radius: 50%;
+    background-color: #0045ff;
+    position: absolute;
+    top: 15px;
+    right: 40%;
+    margin-bottom: 15px;
+}
+.c-icon{
+    font-size: 65px;
+    padding: 10px;
+    color: #fff;
+}
+.contact-item{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.contact-text{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Contact-Us{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 15%);
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+
+.Contact-Us-img img{
+    width: 100%;
+    border-radius: 15px 50% 50% 15px;
+}
+
+.Contact-Us-block{
+    padding: 40px 0;
+}
+.Contact-Us-item{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.Contact-Us-text{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757F95;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+input, textarea{
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+input:focus{
+    outline: 1px solid #0045ff;
+}
+textarea:focus{
+    outline: 1px solid #0045ff;
+}
+input::placeholder{
+    font-size: 16px;
+}
+
+.contact-span{
+    display: flex;
+    gap: 20px;
+}
+.contact-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 20px;
+    transition: all .5s;
+    text-transform: capitalize;
+    position: relative;
+    border-radius: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    background: #0045ff;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 30%);
+    z-index: 1;
+    width: 37%;
+}
+.contact-button:hover{
+    background-color: black;
+}
+.contact-map{
+    border: 0;
+    width: 100%;
+}

@@ -10,6 +10,7 @@ import { FaCar } from "react-icons/fa";
 import Clients from '../../components/clients/Clients'
 import Playmarket from '../../components/playmarket/Playmarket'
 import Footer from '../../components/footer/Footer'
+import { NavLink } from 'react-router-dom'
 
 function Home() {
   

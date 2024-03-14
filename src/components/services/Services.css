@@ -45,6 +45,8 @@
 }
 
 .services-block-r{
+    width: 240px;
+    height: 265px;
     background-color: #fff;
     padding: 15px;
     box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
@@ -57,11 +59,13 @@
     align-items: center;
     margin-bottom: 15px;
 }
-.icon-S{
-    background-color: #0045ff;
-    padding: 12px;
+.ctad-icons{
     border-radius: 50%;
-    font-size: 70px;
+    background-color: #0045ff;
+    padding: 10px 12px;
+}
+.icon-S{
+    font-size: 55px;
    
 }
 .icon-number{
