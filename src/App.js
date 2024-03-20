@@ -14,7 +14,6 @@ import Payment from './pages/payment/Payment';
 import ProductDetail from './pages/productDetail/ProductDetail';
 import ElectricCars from "./pages/electricCars/ElectricCars"
 import Contact from "./pages/contact/Contact"
-import AdminPanel from './ADMIN/adminPanel/AdminPanel';
 
 
 
@@ -43,10 +42,6 @@ function App() {
           <IoArrowUpCircleOutline />
         </a>
       </div>
-      
-      <Routes>
-        <Route path='admin' element={ <AdminPanel /> } />
-      </Routes>
       
       <Navbar />
       

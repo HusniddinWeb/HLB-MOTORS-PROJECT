@@ -14,7 +14,7 @@ function Main() {
                 <div className="main-blocks">
                     <div className="main-block-l">
                         <div className="item">HLB MOTORSGA XUSH KELIBSIZ!</div>
-                        <div className="title"> <span>O'ZINGIZNING<br></br> ORZUYINGIZDAGI</span><br></br> MASHINANI<br></br> TOPISGNING ENG<br></br> YAXSHI USULI</div>
+                        <div className="title"> <span>O'ZINGIZNING<br></br> ORZUYINGIZDAGI</span><br></br> MASHINANI<br></br> TOPISHNING ENG<br></br> YAXSHI USULI</div>
                         <div className="text">
                         Yo'l mashaqqatlaridan sizni xalos etuvchi<br></br> haqiqiy shedevr      avtomobilga ega bo'ling.
                         </div>

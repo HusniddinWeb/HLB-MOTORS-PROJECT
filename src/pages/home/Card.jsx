@@ -56,9 +56,11 @@ function Card({img,title,urven,commet,auto,distance,liter,model,gibrid,price,id}
 
                     <div className="card-befor">
                         <div className="card-price">{price}</div>
-                        <button className='btn-eg' onClick={onButton}>
-                            <MdOutlineRemoveRedEye /> Tafsilotlar
-                        </button>
+                        <a href="#scroll">
+                            <button className='btn-eg' onClick={onButton}>
+                                <MdOutlineRemoveRedEye /> Tafsilotlar
+                            </button>
+                        </a>
                     </div>
 
                 </div>

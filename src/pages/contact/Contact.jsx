@@ -12,8 +12,8 @@ import { LuAlarmClock } from "react-icons/lu";
 import { FaRegPaperPlane } from "react-icons/fa";
 
 import { FaFacebookF } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa6";
-import { RiLinkedinFill } from "react-icons/ri";
+import { FaInstagram } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 
 
@@ -95,16 +95,16 @@ function Contact() {
                         © Mualliflik huquqi 2024 <span>HLB MOTORS</span>Barcha huquqlar himoyalangan.
                     </div>
                     <div className="footer-links">
-                        <NavLink to={"/"}>
+                        <NavLink to={"https://www.facebook.com/profile.php?id=61551063302690"} target='_blank'>
                             <FaFacebookF className='footer-links-end' />
                         </NavLink>
-                        <NavLink to={"/"}>
-                            <FaTwitter className='footer-links-end' />
+                        <NavLink to={"https://www.instagram.com/hlb_motors2023"} target='_blank'>
+                            <FaInstagram className='footer-links-end' />
                         </NavLink>
-                        <NavLink to={"/"}>
-                            <RiLinkedinFill className='footer-links-end' />
+                        <NavLink to={"https://t.me/hlbmotors2023"} target='_blank'>
+                            <FaTelegram className='footer-links-end' target='_blank' />
                         </NavLink>
-                        <NavLink to={"/"}>
+                        <NavLink to={"https://www.youtube.com/"} target='_blank'>
                             <FaYoutube className='footer-links-end' />
                         </NavLink>
                     </div>
