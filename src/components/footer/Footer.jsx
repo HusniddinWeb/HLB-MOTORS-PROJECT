@@ -7,8 +7,8 @@ import { LuPhone } from "react-icons/lu";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { CgMail } from "react-icons/cg";
 import { FaFacebookF } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa6";
-import { RiLinkedinFill } from "react-icons/ri";
+import { FaInstagram } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 
 function Footer() {
@@ -34,11 +34,11 @@ function Footer() {
                         <div className="footer-logo-end">
                             <div className="footer-logos">
                                 <LuPhone className='footer-ico' />
-                                +998 90 226 07 80
+                                +998 91 062 07 70
                             </div>
                             <div className="footer-logos">
                                 <HiOutlineLocationMarker className='footer-ico' />
-                                Index, Toshkent Sergeli
+                                Toshkent | Sergeli | Index
                             </div>
                             <div className="footer-logos">
                                 <CgMail className='footer-ico' />
@@ -62,19 +62,19 @@ function Footer() {
             <div className="container">
                 <div className="footer-block-b">
                     <div className="footer-block-text-b">
-                        © Mualliflik huquqi 2024 <span>HLB MOTORS</span>Barcha huquqlar himoyalangan.
+                        © Mualliflik huquqi 2024 <span>HLB MOTORS</span>Barcha huquqlarni himoyalagan.
                     </div>
                     <div className="footer-links">
-                        <NavLink to={"/"}>
+                        <NavLink to={"https://www.facebook.com/profile.php?id=61551063302690"} target='_blank'>
                             <FaFacebookF className='footer-links-end' />
                         </NavLink>
-                        <NavLink to={"/"}>
-                            <FaTwitter className='footer-links-end' />
+                        <NavLink to={"https://www.instagram.com/hlb_motors2023"} target='_blank'>
+                            <FaInstagram className='footer-links-end' />
                         </NavLink>
-                        <NavLink to={"/"}>
-                            <RiLinkedinFill className='footer-links-end' />
+                        <NavLink to={"https://t.me/hlbmotors2023"} target='_blank'>
+                            <FaTelegram className='footer-links-end' target='_blank' />
                         </NavLink>
-                        <NavLink to={"/"}>
+                        <NavLink to={"https://www.youtube.com/"} target='_blank'>
                             <FaYoutube className='footer-links-end' />
                         </NavLink>
                     </div>

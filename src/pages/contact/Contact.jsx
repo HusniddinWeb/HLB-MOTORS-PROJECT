@@ -19,41 +19,41 @@ import { FaYoutube } from "react-icons/fa6";
 
 function Contact() {
   return (
-    <div className='contacts'>
+    <div className='contacts' id='scroll'>
         
-        <div className="main-block contact">
+        {/* <div className="main-block contact">
             <h1 className='brend-title brend-contact'>Aloqa</h1>
             <div className="nav-brend">
             <NavLink className="brent-icons hov" to={"/"} >Asosiy</NavLink>
             <FaAnglesRight />
             <h4>Aloqa</h4>
             </div>
-        </div>
+        </div> */}
 
         <div className="container">
 
             <div className="contact-block">
 
                 <div className="contact-menu">
-                    <div className="contact-icons"><FaMapMarkedAlt className='c-icon' /></div>
+                    <div className="contact-icons ico"><FaMapMarkedAlt className='c-icon' /></div>
                     <div className="contact-item">Ofis manzili</div>
                     <div className="contact-text">Toshkent | Sergeli | Index</div>
                 </div>
 
                 <div className="contact-menu">
-                    <div className="contact-icons"><BiPhoneCall className='c-icon' /></div>
+                    <div className="contact-icons ico"><BiPhoneCall className='c-icon' /></div>
                     <div className="contact-item">Qo'ng'iroq qiling</div>
                     <div className="contact-text">+998 91 062 07 70</div>
                 </div>
 
                 <div className="contact-menu">
-                    <div className="contact-icons"><PiEnvelopeSimple className='c-icon' /></div>
+                    <div className="contact-icons ico"><PiEnvelopeSimple className='c-icon' /></div>
                     <div className="contact-item">Elektron pochta</div>
                     <div className="contact-text">hlbmotorsindex@gmail.com</div>
                 </div>
 
                 <div className="contact-menu">
-                    <div className="contact-icons"><LuAlarmClock className='c-icon' /></div>
+                    <div className="contact-icons ico"><LuAlarmClock className='c-icon' /></div>
                     <div className="contact-item">Ochiq vaqt</div>
                     <div className="contact-text">Dushanba - Shanba<br></br>(09:00 - 20:00)</div>
                 </div>

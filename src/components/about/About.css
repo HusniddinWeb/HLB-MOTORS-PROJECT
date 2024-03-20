@@ -1,6 +1,6 @@
 .about{
     background-color: #F9F9F9;
-    padding-bottom: 100px;
+    padding-top: 100px;
 }
 .about-t{
     margin-bottom: 70px;
@@ -9,15 +9,16 @@
     display: flex;
     gap: 50px;
 }
+
 .about-block .about-block-l::before{
     border: 0.5rem solid #0d6efd;
     border: 0.5rem solid #0d6efd;
     box-sizing: border-box;
     content: "";
-    height: 70%;
+    height: 397px;
     left: 42px;
     position: absolute;
-    width: 500px;
+    width: 434px;
     z-index: 1;
     border-radius: 3%;
 }
@@ -26,6 +27,26 @@
     width: 500px;
     position: relative;
     z-index: 2;
+}
+
+@keyframes slidel {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-40px); }
+    100% { transform: translateX(0); }
+}
+
+.about-block .about-block-l img{
+    animation: slidel 2s ease-in-out;
+}
+
+.about-block-r{
+    animation: slide 2s ease-in-out;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(30px); }
+    100% { transform: translateX(0); }
 }
 
 .about-block-r .about-title{
@@ -37,7 +58,7 @@
     word-spacing: 8px;
     letter-spacing: 3px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .about-block-r .item{
     font-size: 46px;
@@ -60,6 +81,9 @@
     letter-spacing: 2px;
     color: #757F95;
     margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 .about-block-r .icons-gal{
     color: #0045ff;
@@ -96,20 +120,24 @@
     align-items: center;
     gap: 20px;
 }
-.about-b .about-block-b .about-info .icons{
-    position: relative;
-    text-align: center;
-    font-size: 60px;
+.about-b .about-block-b .about-info .icons {
+    background: #000;
+    border: 5px solid #fff;
     border-radius: 50%;
-    width: 120px;
+    color: #fff;
+    font-size: 60px;
     height: 120px;
     line-height: 110px;
-    color: #FFF;
-    border: 5px solid #FFF;
-    background: black;
+    position: relative;
+    text-align: center;
+    width: 120px;
     z-index: 1;
 }
-
+.z-icon{
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
 .about-b .about-block-b .about-info .about-number{
     font-size: 50px;
     font-weight: 600;
@@ -121,4 +149,100 @@
     position: relative;
     z-index: 2;
     color: #FFF;
+}
+
+
+
+
+@media (max-width: 1200px){
+    .about-block .about-block-l::before {
+        left: 30px;
+        width: 404px;
+    }
+
+    .about-block-r .about-title{
+        font-size: 18px;
+    }
+    .about-block-r .item{
+        font-size: 35px;
+    }
+    .about-block-r .text{
+        font-size: 16px;
+    }
+    .about-block-r .about-icon{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 992px){
+    .about-block{
+        flex-wrap: wrap;
+    }
+    .about-b .about-block-b .about-info .about-number {
+        font-size: 46px;
+    }
+    .about-b .about-block-b .about-info .about-info-title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px){
+    .about-t {
+        margin-bottom: 20px;
+    }
+    .about-block-r .about-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .about-block-r .item {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .about-block-r .text {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .about-block-r .about-icon {
+        font-size: 15px;
+    }
+
+    .about-b .about-block-b{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 576px){
+    .about-block .about-block-l img{
+        width: 340px;
+    }
+    .about-block .about-block-l::before{
+        width: 285px;
+        left: 18px;
+        height: 285px;
+    }
+
+    .about-b .about-block-b {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .about {
+        padding-top: 50px;
+    }
+    .about-block {
+        gap: 20px;
+    }
+    .about-block-r .item {
+        font-size: 28px;
+    }
+    .about-b .about-block-b .about-info {
+        gap: 0px;
+        border: 1px solid #fff;
+        padding: 10px;
+        border-radius: 15px;
+    }
 }

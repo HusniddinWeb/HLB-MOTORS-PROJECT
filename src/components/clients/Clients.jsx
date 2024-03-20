@@ -19,23 +19,32 @@ function Clients() {
         items: 4,
         loop: true,
         autoplay: true,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 3000,
         animateOut: 'slideOutUp',
-        dots: true,
-        nav: true,
+        dots: false,
+        nav: false,
         margin: 20,
         responsive: {
             1200: {
                 items: 4,
             },
-            724: {
+            992: {
                 items: 3,
             },
-            500: {
+            768: {
                 items: 2,
             },
-
-            370: {
+            576: {
+                items: 2,
+                innerWidth: "100%",
+                outerWidth: "100%"
+            },
+            360: {
+                items: 1,
+                innerWidth: "100%",
+                outerWidth: "100%"
+            },
+            340: {
                 items: 1,
                 innerWidth: "100%",
                 outerWidth: "100%"

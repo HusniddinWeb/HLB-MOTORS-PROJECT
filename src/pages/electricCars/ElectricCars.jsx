@@ -11,15 +11,15 @@ import Footer from '../../components/footer/Footer';
 
 function ElectricCars() {
   return (
-    <div className='electric-cars'>
-        <div className="main-block hero-byd">
+    <div className='electric-cars' id='scroll'>
+        {/* <div className="main-block hero-byd">
             <h1 className='brend-title'>Elektromobillar</h1>
             <div className="nav-brend">
             <NavLink className="brent-icons hov" to={"/"} >Asosiy</NavLink>
             <FaAnglesRight />
             <h4>Elektromobillar</h4>
             </div>
-        </div>
+        </div> */}
 
         <div className="container">
 

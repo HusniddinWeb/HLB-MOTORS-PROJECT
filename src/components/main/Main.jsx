@@ -2,22 +2,12 @@ import React from 'react'
 import "./Main.css"
 import img from "../images/HAN.png"
 
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-
 function Main() {
 
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    };
+    
 
   return (
-    <div className='main'>
+    <div className='main' id='scroll'>
 
         <div className="main-block1">
             <div className="container">
@@ -36,6 +26,7 @@ function Main() {
                 </div>
             </div>
         </div>
+            
     </div>
   )
 }

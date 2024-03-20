@@ -98,7 +98,69 @@
 
 .playmarket-block-r img{
     position: absolute;
-    top: 110px;
-    right: -48px;
+    top: 169px;
+    right: -36px;
     width: 684px;
+}
+p{
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 992px){
+    
+    .playmarket-title {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .playmarket-block-r img {
+        top: 227px;
+        right: -113px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px){
+    .playmarket-item {
+        font-size: 18px;
+    }
+    .playmarket-title {
+        font-size: 30px;
+    }
+    .playmarket-text{
+        font-size: 16px;
+    }
+    .playmarket-block-r img {
+        top: 141px;
+        right: -137px;
+        width: 563px;
+    }
+}
+
+@media (max-width:576px){
+    .playmarket-block {
+        padding: 20px;
+    }
+    .playmarket-item {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    .playmarket-title {
+        font-size: 24px;
+        color: black;
+    }
+    .playmarket-text {
+        font-size: 13px;
+    }
+    .play-navlink{
+        flex-wrap: wrap;
+    }
+    .nav-play span{
+        font-size: 16px;
+    }
+    .playmarket-block-r img {
+        top: 186px;
+        right: -73px;
+        width: 400px;
+    }
 }

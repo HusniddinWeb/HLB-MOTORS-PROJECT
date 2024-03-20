@@ -1,6 +1,345 @@
 .product-Detail{
-    padding-top: 100px;
+    padding-top: 180px;
+    background-color: #f9f9f9;
+}
+.product-Detail-block{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.sliders{
+    width: 100%;
+}
+.p-img{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
 }
 .cl{
-    width: 50%;
+    border-radius: 10px;
+   
+}
+.slick-slider {
+    width: 100%;
+}
+.product-Detail-l{
+    width: 70%;
+    padding: 20px 20px 40px 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 15%);
+
+}
+
+.product-Detail-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+.product-eye{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #757F95;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.eyes{
+    color: #0045ff;
+    font-size: 20px;
+}
+
+.product-detail-w{
+    padding: 20px;
+    margin-bottom: 15px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 15%);
+}
+.product-price{
+    color: #0045ff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.product-icon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.p-icon{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    color: #757F95;
+    font-size: 16px;
+
+}
+.p-c{
+    color: #0045ff;
+    font-size: 20px;
+}
+
+.product-detail-t{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 15%);
+}
+.product-img img{
+    border-radius: 50%;
+}
+.product-text{
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.p-span{
+    color: #0045ff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.product-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding-top: 10px;
+}
+.p-t{
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.p-t:hover{
+    color: #0045ff;
+}
+
+
+.product-detail-s{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 15%);
+}
+.product-item{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+
+}
+.p-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.p-input{
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-size: 15px;
+}
+.p-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 15px;
+    transition: all .5s;
+    text-transform: capitalize;
+    position: relative;
+    border-radius: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    background: #0045ff;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 30%);
+    z-index: 1;
+    width: 44%;
+}
+.p-button:hover{
+    background-color: black;
+}
+
+
+.product-main{
+    border-radius: 15px;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 15%);
+    padding: 20px;
+    width: 70%;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.product-main-item{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px;
+}
+.product-main-block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.product-main-projekt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.p-main-icon{
+    color: #0045ff;
+    font-size: 25px;
+}
+.product-main-text{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.p-main-span{
+    color: #757F95;
+    font-size: 16px;
+}
+
+
+
+.product-main-feeling{
+    display: flex;
+    justify-content: space-between;
+}
+.main-feeling{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-feeling-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757F95;
+}
+.main-feeling-ios{
+    color: #0045ff;
+    font-size: 20px;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+.carousel .thumb img{
+    height: 45px;
+}
+.carousel .thumb:hover {
+    border: 3px solid #0045ff;
+}
+
+@media (max-width: 1200px){
+    .product-img img{
+        width: 85px;
+    }
+    .product-text{
+        font-size: 16px;
+    }
+    .p-span {
+        font-size: 14px;
+    }
+    .p-button{
+        width: 50%;
+    }
+    .product-main{
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px){
+    .product-Detail-block {
+        flex-wrap: wrap;
+    }
+    .product-Detail-l{
+        width: 100%;
+    }
+    .product-Detail-r{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        width: 100%;
+    }
+    .product-main {
+        width: 100%;
+    }
+    .main-feeling-icon{
+        font-size: 14px;
+    }
+    .product-detail-s{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .product-Detail-l{
+        padding: 10px;
+    }
+    .product-Detail-r {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 60%;
+    }
+    .product-main-text{
+        font-size: 16px;
+    }
+    .p-main-span{
+        font-size: 14px;
+    }
+    .main-feeling-icon {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px){
+    .product-Detail {
+        padding-top: 100px;
+    }
+    .product-Detail-title{
+        font-size: 18px;
+    }
+    .p-img{
+        height: 225px;
+    }
+    .carousel{
+        overflow: scroll;
+    }
+    .product-Detail-r{
+        width: 100%;
+        gap: 0;
+    }
+    .product-Detail-block{
+        gap: 0;
+        padding-bottom: 0px;
+    }
+    .product-main-block{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .product-main-feeling{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
 }

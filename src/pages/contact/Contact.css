@@ -1,3 +1,7 @@
+.contacts{
+    padding-top: 190px;
+}
+
 .contact-block{
     display: flex;
     gap: 20px;
@@ -13,6 +17,21 @@
     box-shadow: 0 0 40px 5px rgb(0 0 0 / 15%);
     transition: all .5s ease-in-out;
 }
+
+.contact-menu:hover{
+    
+}
+
+@keyframes slidec {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(30px); }
+    100% { transform: translateY(0); }
+}
+
+.contact-menu{
+    animation: slidec 2s ease-in-out;
+}
+
 .contact-menu:hover{
     box-shadow: 0 0 40px 5px rgb(0 0 0 / 35%);
     transform: scale(1.02);
@@ -31,9 +50,10 @@
     color: #fff;
 }
 .contact-item{
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 900;
     margin-bottom: 15px;
+    color: black;
 }
 .contact-text{
     font-size: 16px;
@@ -124,4 +144,109 @@ input::placeholder{
 .contact-map{
     border: 0;
     width: 100%;
+}
+
+
+
+@media (max-width: 1200px){
+    .contact-item {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px){
+    .contact-icons {
+        right: 35%;
+    }
+    .contact-text{
+        font-size: 12px;
+    }
+    .contact-block{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+    .contact-menu {
+        width: 100%;
+    }
+    .ico{
+        right: 40%;
+    }
+
+    .Contact-Us{
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .Contact-Us-img img{
+        border-radius: 15px;
+    }
+    .contact-button{
+        width: 27%;
+    }
+    .contact-map{
+        height: 300px;
+    }
+
+}
+
+@media (max-width:768px){
+    .contacts {
+        padding-top: 140px;
+    }
+    .contact-menu{
+        padding: 80px 10px 15px 10px;
+    }
+    .contact-icons {
+        right: 30%;
+    }
+    .c-icon{
+        font-size: 60px;
+    }
+    .contact-item {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .contact-text {
+        font-size: 10px;
+    }
+    .contact-icons {
+        right: 30%;
+    }
+    .ico{
+        right: 37%;
+    }
+
+    .Contact-Us-block {
+        padding: 0;
+    }
+    .contact-button {
+        width: 38%;
+    }
+}
+
+@media (max-width: 576px){
+    .contact-menu {
+        width: 80%;
+    }
+    .contact-icons {
+        right: 40%;
+    }
+
+    .contact-block {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center
+    }
+    .contact-button {
+        width: 58%;
+    }
+
+    input::placeholder{
+        font-size: 12px;
+    }
+
+    input, textarea {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
 }

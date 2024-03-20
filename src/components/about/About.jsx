@@ -51,7 +51,7 @@ function About() {
                     <div className="about-block-b">
                     <div className="about-info">
                         <div className="icons">
-                            <MdOutlineCarRental />
+                            <MdOutlineCarRental className='z-icon' />
                         </div>
                         <div className="about-number">500</div>
                         <div className="about-info-title">
@@ -60,7 +60,7 @@ function About() {
                     </div>
                     <div className="about-info">
                         <div className="icons">
-                            <GiCarKey />
+                            <GiCarKey className='z-icon' />
                         </div>
                         <div className="about-number">900</div>
                         <div className="about-info-title">
@@ -69,7 +69,7 @@ function About() {
                     </div>
                     <div className="about-info">
                         <div className="icons">
-                            <HiMiniWrenchScrewdriver />
+                            <HiMiniWrenchScrewdriver className='z-icon' />
                         </div>
                         <div className="about-number">50</div>
                         <div className="about-info-title">
@@ -78,7 +78,7 @@ function About() {
                     </div>
                     <div className="about-info">
                         <div className="icons">
-                         <RiUserStarLine />
+                         <RiUserStarLine className='z-icon' />
                         </div>
                         <div className="about-number">10</div>
                         <div className="about-info-title">

@@ -1,7 +1,7 @@
 .services{
     background-color: #111;
     position: relative;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 .services-block{
     color: #fff;
@@ -13,10 +13,12 @@
 .services-main-block{
     display: flex;
     gap: 20px;
+    position: relative;
 }
 .services-item{
     display: flex;
     gap: 10px;
+    align-items: center;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -40,7 +42,7 @@
 .img-ser{
     width: 890px;
     position: absolute;
-    left: -63px;
+    left: -91px;
     bottom: -80px;
 }
 
@@ -87,4 +89,99 @@
 }
 .end{
     margin-top: 50px;
+}
+
+
+
+@media (max-width: 1200px){
+    .services-block{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .services-l{
+        text-align: center;
+    }
+    .services-item{
+        justify-content: center;
+    }
+    .services-text{
+        width: 100%;
+    }
+    .img-ser {
+        width: 667px;
+        left: -94px;
+        bottom: 171px;
+    }
+    .services-main-block{
+        width: 100%;
+        align-items: flex-end;
+        justify-content: flex-end;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 768px){
+    .services-block{
+        padding: 50px 0;
+    }
+    .services-l {
+        text-align: left;
+    }
+    .services-item{
+        font-size: 16px;
+        margin-bottom: 10px;
+        justify-content: flex-start
+    }
+    .services-titl {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .services-text{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px){
+    .services-block {
+        padding: 20px 0;
+    }
+    .services-item {
+        font-size: 14px;
+    }
+    .services-titl {
+        font-size: 30px;
+    }
+    .services-text {
+        font-size: 10px;
+    }
+    .icon-S {
+        font-size: 50px;
+    }
+    .services-block-r {
+        width: 224px;
+        height: 254px;
+        background-color: #fff;
+        padding: 10px;
+        box-shadow: 0 0 40px 5px rgb(0 0 0 / 30%);
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    .img-ser {
+        width: 400px;
+        left: -46px;
+        bottom: 482px;
+    }
+
+    .services-main-block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .services-block-item-r {
+        font-size: 20px;
+    }
+    .services-block-text-r{
+        font-size: 14px;
+    }
 }

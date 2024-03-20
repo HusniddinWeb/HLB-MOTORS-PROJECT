@@ -21,7 +21,7 @@ import Footer from '../../components/footer/Footer';
 
 function AboutUs() {
   return (
-    <div className='aboutUs'>
+    <div className='aboutUs' id='scroll'>
       {/* <div className="main-block">
         <h1 className='brend-title'>Biz haqimizda</h1>
         <div className="nav-brend">
@@ -54,7 +54,7 @@ function AboutUs() {
               <div className="team-img">
                 <img src={images1} alt="" />
               </div>
-              <div className="team-name">Chad Smit</div>
+              <div className="team-name">Iroda Komilova</div>
               <div className="team-title">HR Menejeri</div>
 
               <div className="team-link">
@@ -71,7 +71,7 @@ function AboutUs() {
               <div className="team-img">
                 <img src={images2} alt="" />
               </div>
-              <div className="team-name">Malida, Fie</div>
+              <div className="team-name">Rustam Qodirov</div>
               <div className="team-title">Texnik</div>
 
               <div className="team-link">
@@ -88,7 +88,7 @@ function AboutUs() {
               <div className="team-img">
                 <img src={images3} alt="" />
               </div>
-              <div className="team-name">Aron Rodri</div>
+              <div className="team-name">Komila G'aniyeva</div>
               <div className="team-title">Bosh Direktor Va Asoschi</div>
 
               <div className="team-link">
@@ -105,7 +105,7 @@ function AboutUs() {
               <div className="team-img">
                 <img src={images4} alt="" />
               </div>
-              <div className="team-name">Toni Pinto</div>
+              <div className="team-name">Umar Botirov</div>
               <div className="team-title">Mexanik Muhandis</div>
 
               <div className="team-link">

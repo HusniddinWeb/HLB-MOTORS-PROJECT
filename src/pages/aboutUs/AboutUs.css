@@ -1,5 +1,5 @@
 .aboutUs{
-    padding-top: 100px;
+    padding-top: 70px;
 }
 .main-block{
     background-image: url("../../components/images/BYD_HAN_10.png");
@@ -97,13 +97,16 @@ h4{
     
 }
 .team-clents:hover .team-link{
-    right: 14px;
+    right: 18px;
 }
 .team-img{
     position: relative;
     z-index: 1;
     overflow: hidden;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .team-img img{
     width: 244px;
@@ -146,4 +149,25 @@ h4{
 .class-icon:hover{
     background-color: #000000;
     color: #0d6efd;
+}
+
+
+
+@media (max-width: 992px){
+    .team-block{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px){
+    .team-block {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .team-img img {
+        width: 100%;
+    }
 }

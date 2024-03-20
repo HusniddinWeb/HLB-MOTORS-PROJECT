@@ -22,7 +22,7 @@ function Services() {
                         Biz Sifatli Xizmat<br></br> <span>Ko'rsatishga</span> <br></br> Bag'ishlanganmiz
                     </div>
                     <div className="services-text">
-                    Toshkentning qoq markazida joylashgan ushbu kompaniya BYD ishqibozlari va yuqori darajadagi avtomobil yechimlarini izlayotgan atrof-muhitga e'tiborli haydovchilar uchun markaz bo'lib xizmat qiladi.
+                    Toshkentning markazida joylashgan ushbu kompaniya BYD ishqibozlari va yuqori darajadagi avtomobil yechimlarini izlayotgan va atrof-muhitga e'tiborli haydovchilar uchun markaz bo'lib xizmat qiladi.
                     </div>
                     <img className='img-ser' src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/BYD-Dolphin_0.png" alt="" />
                 </div>
